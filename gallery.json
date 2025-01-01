@@ -1,0 +1,29 @@
+export class Gallery {
+    img!: string;
+    location!: string;
+  }
+  
+  
+  const galleries: Gallery[] = [
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+    { img: "", location: "A & H" },
+  ];
+  
+  // Jika Anda ingin membuat objek yang mirip dengan JSON:
+  const jsonGallery = {
+    gallery: galleries,
+  };
+  

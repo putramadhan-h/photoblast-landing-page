@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight;
+  }
+  .btn-primary {
+    @apply bg-black text-white;
+  }
+  .btn-secondary {
+    @apply bg-white text-black;
+  }
+  .btn-text {
+    @apply text-white bg-transparent;
+  }
+
+
+  .logo-ticker-image{
+    @apply h-20 w-auto;
+  }
+
+  .tag {
+    @apply text-sm text-white inline-flex border border-white/40 px-3 py-1 rounded-lg tracking-tight;
+  }
+  .tag2 {
+    @apply text-sm text-black/80 inline-flex border border-black/70 px-3 py-1 rounded-lg tracking-tight;
+  }
+
+  .section-title {
+    @apply text-[#050505] text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter;
+  }
+  .section-description {
+    @apply text-center text-[22px] leading-[30px] tracking-tight text-[#1f1d1d];
+  }
+  .section-heading {
+      @apply max-w-[500px] mx-auto;
+  }
+
+  
+  .card {
+      @apply p-10 border border-solid border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] max-w-xs w-full;
+  }
+}
+
